@@ -7,8 +7,8 @@ using namespace std;
 
 //clang++ Visualizer.cpp -I/Library/Frameworks/SDL2.framework/Headers -F/Library/Frameworks -framework SDL2
 
-const int SCREEN_WIDTH=910;
-const int SCREEN_HEIGHT=750;
+const int SCREEN_WIDTH=900;
+const int SCREEN_HEIGHT=500;
 
 const int arrSize=130;
 const int rectSize=7;
@@ -69,7 +69,7 @@ void close()
 
 void visualize(int x=-1, int y=-1, int z=-1)
 {
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
+    SDL_SetRenderDrawColor(renderer, 2, 0, 0, 0);
     SDL_RenderClear(renderer);
 
     int j=0;
