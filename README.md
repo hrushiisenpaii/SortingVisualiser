@@ -4,7 +4,7 @@ C++ program to view the sorting algorithms using SDL2 lib.
 
 The sorting algorithms covered here are:<br> - Selection Sort<br> - Insertion Sort<br> - Bubble Sort<br> - Merge Sort<br>- Quick Sort<br> - Heap Sort<br>
 
-#How to run
+# How to run
 
 1) Take the SDL2.framework and paste it in /Library/Frameworks.<br>
 2) On Terminal go to the cpp file folder -> <br>
